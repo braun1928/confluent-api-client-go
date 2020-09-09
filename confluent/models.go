@@ -113,7 +113,7 @@ type APIKey struct {
 	Key             string            `json:"key"`
 	Description     string            `json:"description"`
 	KeyID           int               `json:"id"`
-	UserID          string            `json:"user_id"`
+	UserID          int               `json:"user_id"`
 	Secret          string            `json:"secret"`
 	LogicalClusters []LogicalClusters `json:"logical_clusters"`
 }
